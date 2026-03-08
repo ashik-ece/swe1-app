@@ -1,0 +1,12 @@
+[run]
+source = mysite,polls
+omit =
+    */migrations/*
+    */tests.py
+    manage.py
+
+[report]
+exclude_lines =
+    pragma: no cover
+    def __repr__
+    raise NotImplementedError

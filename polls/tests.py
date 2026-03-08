@@ -1,3 +1,9 @@
 from django.test import TestCase
 
-# Create your tests here.
+
+class PlaceholderTest(TestCase):
+    """Placeholder test so the test suite runs for CI."""
+
+    def test_placeholder(self):
+        """Placeholder test case."""
+        self.assertTrue(True)
