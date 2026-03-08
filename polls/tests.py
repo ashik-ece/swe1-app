@@ -6,5 +6,4 @@ class PlaceholderTest(TestCase):
 
     def test_placeholder(self):
         """Placeholder test case."""
-        x   = 1  # flake8 violation: multiple spaces before =
         self.assertTrue(True)
