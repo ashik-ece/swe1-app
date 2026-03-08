@@ -2,7 +2,7 @@ from django.urls import path
 
 from . import views
 
-## if we have multiple apps , its better to mention the name for this url.py
+# If we have multiple apps, mention the app_name for this url.py
 app_name = "polls"
 urlpatterns = [
     # ex: /polls/
